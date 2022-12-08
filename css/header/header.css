@@ -1,0 +1,48 @@
+.container_header{
+    font-family: 'montserrat',sans-serif;
+}
+
+.header{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+}
+
+.header_logo{
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.nav_items{
+    display: flex;
+    align-items: center;
+}
+
+.nav_items li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.nav_items li{
+    margin-right: 2rem;
+}
+
+.header_button{
+    font-family: 'montserrat',sans-serif;
+    background-color: #6B67F5;
+    border-style: none;
+    padding: 0.7rem 1.8rem;
+    border-radius: 6px;
+}
+
+.header_button_link{
+    font-family: 'montserrat',sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+
