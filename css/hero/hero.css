@@ -1,0 +1,48 @@
+.hero{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    height: calc(100vh - 4rem);
+    font-family: 'Montserrat',sans-serif;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.hero_textcontent{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.hero_textcontent h1{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.hero_textcontent p{
+    margin-bottom: 2rem;
+}
+
+.hero_img{
+    background-color: rgb(184, 184, 184);
+    width: 40%;
+    height: 75%;
+    border-radius: 8px;
+}
+
+.btn-hero{
+    margin-right: 1.5rem;
+}
+
+.button2{
+    font-family: 'montserrat',sans-serif;
+    background-color: white;
+    border-color: black;
+    border-width: 1px;
+    padding: 0.7rem 1.8rem;
+    border-radius: 6px;
+    cursor: pointer;
+
+}

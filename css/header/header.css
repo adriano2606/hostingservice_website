@@ -31,12 +31,16 @@
     margin-right: 2rem;
 }
 
-.header_button{
+.button{
     font-family: 'montserrat',sans-serif;
     background-color: #6B67F5;
-    border-style: none;
+    border-color: #6B67F5;
+    border-width: 1px;
     padding: 0.7rem 1.8rem;
     border-radius: 6px;
+    color: white;
+    cursor: pointer;
+
 }
 
 .header_button_link{
