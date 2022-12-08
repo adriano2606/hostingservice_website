@@ -26,14 +26,15 @@
 }
 
 .hero_img{
-    background-color: rgb(184, 184, 184);
-    width: 40%;
+    background-color: #EBEBEB;
+    width: 35%;
     height: 75%;
     border-radius: 8px;
 }
 
 .btn-hero{
     margin-right: 1.5rem;
+    box-shadow: 0px 25px 50px rgba(32, 32, 32, 0.45);
 }
 
 .button2{
@@ -44,5 +45,45 @@
     padding: 0.7rem 1.8rem;
     border-radius: 6px;
     cursor: pointer;
+}
+
+.hero_textcontent h1 {
+    line-height: 4rem;
+    color: #2E2E2E;
+}
+
+.hero_textcontent p{
+    line-height: 2rem;
+    color: #808080;
+}
+
+.square{
+    width: 50px;
+    height: 45px;
+    background-color: #6B67F5;
+    clip-path:polygon(0 0, 0% 100%, 100% 100%);
+}
+
+.square1{
+    position: relative;
+    top: 80px;
+    left: 93%;
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
 
 }
+
+.square2{
+    position: relative;
+    top: 50%;
+    left: -5%;
+}
+
+.square3{
+    position: relative;
+    top: 50%;
+    left: 85%;
+    width: 85px;
+    height: 70px;
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+}
+
