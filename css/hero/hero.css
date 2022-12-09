@@ -3,10 +3,8 @@
     margin: 0 auto;
     display: flex;
     height: calc(100vh - 4rem);
-    font-family: 'Montserrat',sans-serif;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .hero_textcontent{
@@ -37,49 +35,36 @@
     box-shadow: 0px 25px 50px rgba(32, 32, 32, 0.45);
 }
 
-.button2{
-    font-family: 'montserrat',sans-serif;
-    background-color: white;
-    border-color: black;
-    border-width: 1px;
-    padding: 0.7rem 1.8rem;
-    border-radius: 6px;
-    cursor: pointer;
-}
-
 .hero_textcontent h1 {
     line-height: 4rem;
-    color: #2E2E2E;
+    color: var(--darkgrey);
 }
 
 .hero_textcontent p{
     line-height: 2rem;
-    color: #808080;
+    color: var(--lightgrey);
 }
 
 .square{
     width: 50px;
     height: 45px;
-    background-color: #6B67F5;
+    background-color: var(--primarycolor);
     clip-path:polygon(0 0, 0% 100%, 100% 100%);
+    position: relative;
 }
 
 .square1{
-    position: relative;
     top: 80px;
     left: 93%;
     clip-path: polygon(100% 0, 0% 100%, 100% 100%);
-
 }
 
 .square2{
-    position: relative;
     top: 50%;
     left: -5%;
 }
 
 .square3{
-    position: relative;
     top: 50%;
     left: 85%;
     width: 85px;

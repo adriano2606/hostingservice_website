@@ -1,7 +1,3 @@
-.container_header{
-    font-family: 'montserrat',sans-serif;
-}
-
 .header{
     margin: 0 auto;
     width: 80%;
@@ -13,16 +9,7 @@
 
 .header_logo{
     font-size: 1.5rem;
-    color: #2E2E2E;
-
-}
-
-.bolded{
-    font-weight: 700;
-}
-
-.blued{
-    color: #6B67F5;
+    color: var(--darkgrey);
 }
 
 .nav_items{
@@ -32,30 +19,10 @@
 
 .nav_items li a{
     text-decoration: none;
-    color: #2E2E2E;
+    color: var(--darkgrey);
     font-size: 15px;
 }
 
 .nav_items li{
     margin-right: 2rem;
 }
-
-.button{
-    font-family: 'montserrat',sans-serif;
-    background-color: #6B67F5;
-    border-color: #6B67F5;
-    border-width: 1px;
-    padding: 0.7rem 1.8rem;
-    border-radius: 6px;
-    color: white;
-    cursor: pointer;
-
-}
-
-.header_button_link{
-    font-family: 'montserrat',sans-serif;
-    text-decoration: none;
-    color: white;
-}
-
-

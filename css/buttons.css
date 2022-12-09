@@ -1,0 +1,18 @@
+.button1{
+    background-color: var(--primarycolor);
+    border-color: var(--primarycolor);
+    border-width: 1px;
+    padding: 0.7rem 1.8rem;
+    border-radius: 6px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.button2{
+    background-color: white;
+    border-color: black;
+    border-width: 1px;
+    padding: 0.7rem 1.8rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
