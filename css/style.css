@@ -3,9 +3,11 @@
 :root{
     --font:'Montserrat', sans-serif;
     --primarycolor:#6B67F5;
+    --secondarycolor: #17D7B5;
     --darkgrey:#2E2E2E;
     --lightgrey:#808080;
     --lightgrey2: #EBEBEB;
+    --lightgrey3: #E6E6E6;
 
     font-family: var(--font);
     font-size: 16px;
@@ -22,63 +24,4 @@
 .container{
     max-width: 80%;
     margin: 0 auto;
-}
-
-.ctn-benefits{
-    display: flex;
-}
-
-.benefits{
-    display: flex;
-    gap: 0.7rem;
-    margin-top: 2rem;
-    align-items: top;
-}
-
-.benefit_img{
-    width: 90px;
-    height: 90px;
-    clip-path: circle();
-    background-color: var(--lightgrey2);
-    margin: -15px 5px 0px 0px;
-}
-
-.benefit_textcontent{
-    display: flex;
-    flex-direction: column;
-    gap: 0.3rem;
-}
-
-.benefit_textcontent h1{
-    font-size: 1.2rem;
-    color: var(--darkgrey);
-    font-weight: 700;
-}
-.textcontent_p{
-    color: var(--lightgrey);
-    line-height: 2rem;
-    font-size: 0.8rem;
-}
-
-.link_cta{
-    color: var(--primarycolor);
-}
-
-.cta_benefit{
-    display: flex;
-}
-
-.cta_benefit a{
-    text-decoration: none;
-    font-size: 0.85rem;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
-}
-
-.seta{
-    width: 20px;
-    height: 12px;
-    background-color: var(--primarycolor);
-    clip-path: polygon(75% 50%, 72% 36%, 60% 0%, 100% 50%, 60% 100%, 72% 63%, 74% 50%);
 }

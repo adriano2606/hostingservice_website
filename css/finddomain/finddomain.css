@@ -1,0 +1,100 @@
+.find_domain{
+    margin: 100px auto;
+    margin-bottom: 100px;
+    background-color: var(--primarycolor);
+    padding: 75px 0;
+    text-align: center;
+    border-radius: 15px;
+    position: relative;
+}
+
+.bigsquare{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    color: white;
+    align-items: center;
+}
+
+.bigsquare h1{
+    font-weight: 650;
+    font-size: 2.7rem;
+}
+
+.bigsquare p{
+    line-height: 2rem;
+    color: var(--lightgrey3);
+    font-size: 0.9rem;
+}
+
+.field_search{
+    height: 2.5rem;
+    width: 50%;
+    position: relative;
+}
+
+.field_search input{
+    border-radius: 5px;
+    border-style: none;
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 15px;
+}
+
+.field_search input:focus{
+    outline: none;
+}
+
+.field_search_btn1 {
+    height: 90%;
+    border-radius: 5px;
+    width: 100px;
+    position: absolute;
+    z-index: 2;
+    top: 10%;
+    right: 0px;
+    line-height: 0px;
+    margin-right: 120px;
+}
+
+.field_search_btn2 {
+    height: 90%;
+    border-radius: 5px;
+    width: 100px;
+    position: absolute;
+    z-index: 2;
+    top: 10%;
+    right: 0px;
+    line-height: 0px;
+}
+
+.square-tp2{
+    background-color: var(--secondarycolor);
+    clip-path:polygon(0 0, 0% 100%, 100% 100%);
+    position: absolute;
+}
+
+.square_finddomain1{
+    width: 50px;
+    height: 45px;
+    top: 70%;
+    left: -10px;
+    transform: rotate(-13deg);
+}
+
+.square_finddomain2{
+    width: 35px;
+    height: 35px;
+    top: 0%;
+    left: 35%;
+    transform: rotate(-60deg)
+}
+
+.square_finddomain3{
+    width: 70px;
+    height: 65px;
+    top: 70%;
+    right: -2%;
+    transform: rotate(-80deg)
+}

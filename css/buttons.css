@@ -12,7 +12,7 @@
 .button2{
     font-family: 'Montserrat',sans-serif;
     background-color: white;
-    border-color: black;
+    border-color: var(--darkgrey);
     border-width: 1px;
     padding: 0.7rem 1.8rem;
     border-radius: 6px;
