@@ -1,10 +1,9 @@
 .header{
-    margin: 0 auto;
-    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 4rem;
+    flex-wrap: wrap;
 }
 
 .header_logo{
