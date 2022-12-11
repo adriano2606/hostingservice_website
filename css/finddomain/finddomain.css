@@ -16,17 +16,6 @@
     align-items: center;
 }
 
-.bigsquare h1{
-    font-weight: 650;
-    font-size: 2.7rem;
-}
-
-.bigsquare p{
-    line-height: 2rem;
-    color: var(--lightgrey3);
-    font-size: 0.9rem;
-}
-
 .field_search{
     height: 2.5rem;
     width: 50%;

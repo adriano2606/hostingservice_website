@@ -25,3 +25,14 @@
     max-width: 80%;
     margin: 0 auto;
 }
+
+.section_title1{
+    font-weight: 650;
+    font-size: 2.7rem;
+}
+
+.section_paragraph1{
+    line-height: 2rem;
+    color: var(--lightgrey3);
+    font-size: 0.85rem;
+}

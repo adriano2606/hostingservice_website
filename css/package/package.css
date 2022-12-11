@@ -1,0 +1,96 @@
+.packages_section > .container > .section_paragraph1{
+    color:var(--lightgrey);
+}
+
+.packages_section{
+    background: #F7FAFE;
+    text-align: center;
+}
+
+.packages_section > .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    min-height: 140vh;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.card_item{
+    border-radius: 12px;
+    border: 1px solid #605CEE;
+    display: flex;
+    flex-direction: column;
+    min-height: 420px;
+    align-items: center;
+    padding: 2rem 0.5rem;
+    gap: 1rem;
+}
+
+.card_modal:nth-child(1) > button, .card_modal:nth-child(3) > button{
+  visibility: hidden;
+}
+
+.card_modal > button {
+    width: 100%;
+    padding: 0.7rem 0;
+    border: none;
+    border-radius: 5px;
+    background-color:var(--secondarycolor);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.card_modal:nth-child(2) > .card_item{
+    background-color: white;
+    border: 1px solid white;
+}
+
+.card_item > .button2{
+    width:  95%;
+    padding: 0.5rem 1.8rem;
+    background-color: transparent;
+}
+
+.card_item > .button1{
+    width:  95%;
+    padding: 0.5rem 1.8rem;
+}
+
+.item_title{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.item_paragraph{
+    color: var(--lightgrey);
+    font-size: 0.8rem;
+}
+
+.item_price{
+    font-size: 2.7rem;
+    color: #2E2E2E;
+    font-weight: 700;
+}
+
+.item_price::after{
+    content: "/mo";
+    display: inline-block;
+    font-size: 1.2rem;
+}
+
+.item_benefits{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: left;
+    color: var(--lightgrey);
+    font-weight: 600;
+    font-size: 0.8rem;
+}
