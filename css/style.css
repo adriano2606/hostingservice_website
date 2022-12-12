@@ -29,6 +29,7 @@
 .section_title1{
     font-weight: 650;
     font-size: 2.7rem;
+    color: var(--darkgrey3);
 }
 
 .section_paragraph1{
