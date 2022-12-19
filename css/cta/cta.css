@@ -1,0 +1,14 @@
+.cta_section{
+    margin: 100px auto;
+    margin-bottom: 100px;
+    background-color: #F7FAFE;
+    padding: 100px 0;
+    text-align: center;
+    border-radius: 15px;
+    position: relative;
+}
+
+.cta_section > .bigsquare > .section_title1{
+    color: var(--darkgrey);
+    font-size: 2.5rem;
+}

@@ -1,0 +1,33 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #090660;
+    gap: 5rem;
+    padding: 4rem 10%;
+    color: var(--lightgrey3);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+.footer_logo {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.footer_menu_column1{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 30%;
+    line-height: 1.3rem;
+}
+
+.footer_menu_column2{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.footer_menu_column2 > p:first-child{
+    font-weight: 700;
+}
